@@ -5,8 +5,12 @@
   "description": "TypeScript で JavaScript ライブラリを開発する環境の下地",
   "author": "wusagi24 <wusagi24@lunalabo.net>",
   "main": "dist/index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "rollup": "^2.41.2"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf dist && rollup -c"
   }
 }
