@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "name": "dev_env_for_js_library_with_ts",
+  "version": "0.0.1",
+  "description": "TypeScript で JavaScript ライブラリを開発する環境の下地",
+  "author": "wusagi24 <wusagi24@lunalabo.net>",
+  "main": "dist/index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
