@@ -1,5 +1,5 @@
 export function HelloText (target: string): string {
-  const msg: string = `Hello ${target}!`;
+  const msg = `Hello ${target}!`;
 
   return msg;
 }

@@ -1,6 +1,6 @@
 import { HelloText } from './app';
 
-const target: string = 'World';
+const target = 'World';
 const msg: string = HelloText(target);
 
 console.log(msg);
