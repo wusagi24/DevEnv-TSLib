@@ -1,2 +1,4 @@
 # ignore directories
 dist/
+
+package-lock.json
