@@ -5,29 +5,24 @@ module.exports = {
     es2020: true,
   },
   parserOptions: {
-    sourceType: 'module',
+    sourceType: "module",
   },
-  extends: [
-    'eslint:recommended',
-    'prettier',
-  ],
+  extends: ["eslint:recommended", "prettier"],
   overrides: [
     {
-      files: ['*.ts'],
+      files: ["*.ts"],
       env: {},
-      parser: '@typescript-eslint/parser',
+      parser: "@typescript-eslint/parser",
       parserOptions: {
         tsconfigRootDir: __dirname,
-        project: ['./tsconfig.json'],
+        project: ["./tsconfig.json"],
       },
-      plugins: [
-        '@typescript-eslint',
-      ],
+      plugins: ["@typescript-eslint"],
       extends: [
-        'plugin:@typescript-eslint/recommended',
-        'plugin:@typescript-eslint/recommended-requiring-type-checking',
-        'prettier',
+        "plugin:@typescript-eslint/recommended",
+        "plugin:@typescript-eslint/recommended-requiring-type-checking",
+        "prettier",
       ],
-    }
-  ]
+    },
+  ],
 };
